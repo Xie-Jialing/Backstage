@@ -1,0 +1,25 @@
+.menu-bar{
+    background: $apple-green;
+    .logo,ul{
+        padding-top: 32px;
+        padding-left: 17px;
+    }
+    ul{
+        li{
+            padding-bottom: 32px;
+            a{
+                text-decoration: none;
+                color: $black;
+                font-weight: bolder;
+                span{
+                    padding-left: 16px;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+        li:last-child{
+            padding-bottom: 323px;
+        }
+    }
+}
