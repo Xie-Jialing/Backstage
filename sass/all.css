@@ -10872,32 +10872,222 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.header {
+.menu-bar {
   background: #EDF4EE;
 }
 
-.header .logo, .header ul {
+.menu-bar .logo, .menu-bar ul {
   padding-top: 32px;
   padding-left: 17px;
 }
 
-.header ul li {
+.menu-bar ul li {
   padding-bottom: 32px;
 }
 
-.header ul li a {
+.menu-bar ul li a {
   text-decoration: none;
   color: #000;
   font-weight: bolder;
 }
 
-.header ul li a span {
+.menu-bar ul li a span {
   padding-left: 16px;
   font-size: 16px;
   line-height: 24px;
 }
 
-.header ul li:last-child {
+.menu-bar ul li:last-child {
   padding-bottom: 323px;
+}
+
+.content {
+  padding-top: 32px;
+}
+
+.content .fz-24 {
+  padding-left: 32px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.content .dropdown {
+  padding-left: 46px;
+}
+
+.content .dropdown .fz-16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.py-32 {
+  padding-left: 32px;
+}
+
+.py-32 .bg {
+  background: #EDF4EE;
+}
+
+.py-32 .border {
+  border: 1px solid #CDDDCD;
+}
+
+.py-32 .border .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.py-32 .border .flex span {
+  padding: 0;
+}
+
+.py-32 .py-0 {
+  padding: 12px 12px 4px 12px;
+  margin: 0;
+}
+
+.m-32 {
+  margin-left: 32px;
+  margin-right: 16px;
+}
+
+.m-32 .bg {
+  background: #EDF4EE;
+}
+
+.m-32 .border {
+  border: 1px solid #CDDDCD;
+}
+
+.m-32 .border .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.m-32 .border .flex p {
+  margin: 0;
+}
+
+.m-32 .border .flex .right .fz-16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.m-32 .m-0 {
+  margin: 0;
+  padding: 12px 12px 4px 12px;
+}
+
+.card {
+  margin-bottom: 22px;
+}
+
+.card .card-header {
+  padding: 12px 16px;
+  margin: 0;
+}
+
+.card .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card .bg {
+  background: #EDF4EE;
+}
+
+.card .bg p {
+  margin: 0;
+  padding: 0;
+}
+
+.card .bg .big {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  font-weight: bolder;
+}
+
+.card .card-body {
+  padding: 16px 0 22px 16px;
+}
+
+.card .card-body .card-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .card-body .card-top .photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.card .card-body .card-top .text p {
+  margin: 0;
+  padding: 0;
+}
+
+.card .card-body .card-text {
+  font-size: 14px;
+  line-height: 21px;
+  margin: 16px 32px 16px 50px;
+}
+
+.card .card-body .card-text .color-green {
+  color: #2A8356;
+}
+
+.card .card-body .btn-light-green {
+  background: #EDF4EE;
+  font-weight: bolder;
+  margin-left: 50px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card .card-body .list {
+  list-style-type: disc;
+  margin-left: 90px;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.bottom .right .m-r-16 {
+  margin-right: 16px;
+  width: 157px;
+}
+
+.bottom .right .w-105 {
+  width: 105px;
 }
 /*# sourceMappingURL=all.css.map */
