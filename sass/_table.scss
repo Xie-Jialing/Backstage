@@ -1,0 +1,22 @@
+.table{
+    margin-top: 16px;
+    margin-bottom: 63px;
+    .ta-c{
+        text-align: center;
+    }
+    tbody{
+        .mr-25{
+            margin-right: 25px;
+        }
+    }
+    tr:hover{
+        background:#EDF4EE;
+    }
+}
+.ps-r{
+    position: relative;
+    .ps-a{
+        position: absolute;
+        right: 10px;
+    }
+}

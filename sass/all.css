@@ -10906,7 +10906,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .menu-bar ul li a:hover {
-  border-left: 4px solid #2A8356;
   color: #2A8356;
 }
 
@@ -10951,6 +10950,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding-left: 32px;
   font-size: 24px;
   line-height: 32px;
+  font-weight: bolder;
 }
 
 .content .dropdown {
@@ -10960,6 +10960,11 @@ a.text-dark:hover, a.text-dark:focus {
 .content .dropdown .fz-16 {
   font-size: 16px;
   line-height: 24px;
+}
+
+.content a {
+  text-decoration: none;
+  color: #2A8356;
 }
 
 .py-32 {
@@ -11156,5 +11161,31 @@ a.text-dark:hover, a.text-dark:focus {
 
 .form-group .form-bottom .w-104 {
   width: 104px;
+}
+
+.table {
+  margin-top: 16px;
+  margin-bottom: 63px;
+}
+
+.table .ta-c {
+  text-align: center;
+}
+
+.table tbody .mr-25 {
+  margin-right: 25px;
+}
+
+.table tr:hover {
+  background: #EDF4EE;
+}
+
+.ps-r {
+  position: relative;
+}
+
+.ps-r .ps-a {
+  position: absolute;
+  right: 10px;
 }
 /*# sourceMappingURL=all.css.map */
