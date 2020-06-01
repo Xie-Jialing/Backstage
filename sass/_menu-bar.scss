@@ -1,25 +1,58 @@
 .menu-bar{
     background: $apple-green;
-    .logo,ul{
+    padding-bottom: 323px;
+    position: relative;
+    .logo{
         padding-top: 32px;
         padding-left: 17px;
     }
     ul{
+        padding-top: 32px;
         li{
             padding-bottom: 32px;
             a{
+                display: block;
                 text-decoration: none;
                 color: $black;
                 font-weight: bolder;
+                padding-left: 31px;
                 span{
                     padding-left: 16px;
                     font-size: 16px;
                     line-height: 24px;
                 }
             }
+            a:hover{
+                border-left:4px solid #2A8356;
+                color: #2A8356;
+            }
+            
         }
-        li:last-child{
-            padding-bottom: 323px;
+        .flex{
+            display: flex;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin-right: 16px;
+            }
+            .right{
+                p{
+                    margin: 0;
+                    padding: 0;
+                }
+                .name{
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .mail{
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
         }
     }
 }

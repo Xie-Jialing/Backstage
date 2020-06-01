@@ -123,3 +123,23 @@
         }
     }
 }
+.form-group{
+    margin: 0;
+    .border-0{
+        border:0;
+        resize: none;
+        height: 263px;
+        text-align: left;
+    }
+    .form-bottom{
+        margin-left: 260px;
+        margin-bottom: 16px;
+        .m-r-16{
+            margin-right: 16px;
+            width: 112px;
+        }
+        .w-104{
+            width: 104px;
+        }
+    }
+}

@@ -10874,11 +10874,17 @@ a.text-dark:hover, a.text-dark:focus {
 
 .menu-bar {
   background: #EDF4EE;
+  padding-bottom: 323px;
+  position: relative;
 }
 
-.menu-bar .logo, .menu-bar ul {
+.menu-bar .logo {
   padding-top: 32px;
   padding-left: 17px;
+}
+
+.menu-bar ul {
+  padding-top: 32px;
 }
 
 .menu-bar ul li {
@@ -10886,9 +10892,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .menu-bar ul li a {
+  display: block;
   text-decoration: none;
   color: #000;
   font-weight: bolder;
+  padding-left: 31px;
 }
 
 .menu-bar ul li a span {
@@ -10897,8 +10905,42 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 24px;
 }
 
-.menu-bar ul li:last-child {
-  padding-bottom: 323px;
+.menu-bar ul li a:hover {
+  border-left: 4px solid #2A8356;
+  color: #2A8356;
+}
+
+.menu-bar ul .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.menu-bar ul .flex img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.menu-bar ul .flex .right p {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar ul .flex .right .name {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.menu-bar ul .flex .right .mail {
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .content {
@@ -11089,5 +11131,30 @@ a.text-dark:hover, a.text-dark:focus {
 
 .bottom .right .w-105 {
   width: 105px;
+}
+
+.form-group {
+  margin: 0;
+}
+
+.form-group .border-0 {
+  border: 0;
+  resize: none;
+  height: 263px;
+  text-align: left;
+}
+
+.form-group .form-bottom {
+  margin-left: 260px;
+  margin-bottom: 16px;
+}
+
+.form-group .form-bottom .m-r-16 {
+  margin-right: 16px;
+  width: 112px;
+}
+
+.form-group .form-bottom .w-104 {
+  width: 104px;
 }
 /*# sourceMappingURL=all.css.map */
